@@ -1,0 +1,222 @@
+{
+    "text": {
+        "text": "Settings Create Extra",
+        "bold": true,
+        "color": "gold"
+    },
+    "description": "Enabling and disabling some build features",
+    "rules": [
+        {
+            "text": "Extended support for resource packs",
+            "description": "Mods that add support for optifine resource packs",
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Entity Texture Features",
+                        "description": "Custom texture support for entities in resourcepacks",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "entity_texture_features"
+                        }
+                    },
+                    {
+                        "text": "Entity Model Features",
+                        "description": "Custom Entity Model support",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "entity_model_features"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": "Mods for resource packs",
+            "description": "Mods for better adding and managing resource packs",
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Resourcify",
+                        "description": "In-game resource pack, data pack and shader browser and updater",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "resourcify"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": {
+                "text": "Add-ons to Create",
+                "color": "gold"
+            },
+            "description": {
+                "text": "Attention! If some mods from the suggested list are disabled on the server, they should also be disabled on the clients",
+                "color": "red"
+            },
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Create Googles",
+                        "description": "Adds Helmets with Create Mod Goggle Function and Vanilla Armorstats",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "creategoggles"
+                        }
+                    },
+                    {
+                        "text": "Create: Steam 'n' Rails",
+                        "description": "Create rail systems and steam system",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "railways"
+                        }
+                    },
+                    {
+                        "text": "Create Slice & Dice",
+                        "description": "Making automation for Farmers Delight more sensible",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "sliceanddice"
+                        }
+                    },
+                    {
+                        "text": "Create Structures",
+                        "description": "Adds new structures using Create",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "create_structures"
+                        }
+                    },
+                    {
+                        "text": "Create Crafts & Additions",
+                        "description": "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "createaddition"
+                        }
+                    },
+                    {
+                        "text": "Create Enchantment Industry",
+                        "description": "Automatic Enchanting, with Create",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "create-enchantment-industry"
+                        } 
+                    },
+                    {
+                        "text": "Create Big Cannons",
+                        "description": "A Minecraft mod for building large cannons with the Create mod",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "createbigcannons"
+                        } 
+                    }
+                ]
+            }
+        },
+        {
+            "text": {
+                "text": "Client Mods",
+                "color": "green"
+            },
+            "description": {
+                "text": "Mods that are designed for the client\n\n",
+                "color": "green"
+            },
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Ambient Sounds",
+                        "description": "Adds more ambiance to a Minecraft world",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "ambientsounds"
+                        }
+                    },
+                    {
+                        "text": "Not Enough Animations",
+                        "description": "Bringing first-person animations to the third-person",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "notenoughanimations"
+                        }
+                    },
+                    {
+                        "text": "Sound Physics Remastered",
+                        "description": "A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "sound_physics_remastered"
+                        }
+                    },
+                    {
+                        "text": "Better F3",
+                        "description": "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "betterf3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": {
+                "text": "Server mods",
+                "color": "red"
+            },
+            "description": {
+                "text": "Attention! If some mods from the suggested list are disabled on the server, they should also be disabled on the clients",
+                "color": "red"
+            },
+            "controller": {
+                "type": "rules_group",
+                "collapsed": true,
+                "rules": [
+                    {
+                        "text": "Supplementaries",
+                        "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+                        "controller": {
+                            "type": "boolean",
+                            "mod": "supplementaries"
+                        }
+                    },
+                    {
+                        "text": "Adorn",
+                        "description": "Decorate your home",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "adorn"
+                        }
+                    },
+                    {
+                        "text": "Travelers Backpack",
+                        "description": "Official port of Adventure Backpack",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "travelersbackpack"
+                        }
+                    },
+                    {
+                        "text": "Azure Paxels",
+                        "description": "Adds a multitool to enhance the experience",
+                        "controller": {
+                          "type": "boolean",
+                          "mod": "azurepaxels"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

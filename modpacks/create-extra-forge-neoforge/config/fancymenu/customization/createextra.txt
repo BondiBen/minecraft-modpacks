@@ -1,0 +1,133 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = f5f54cc9-10cf-4d58-a5b7-c2f697a66e561700978726836
+  y = 274
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 403
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2ae339c5-00e7-4728-b4d2-1ac6a646d6941700978726899
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 182
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 3c02a1d8-1603-4e93-a5b6-a9ba38b019df1700978726901
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 100
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3db976c5-be9a-44eb-8d9c-837f2d082fad1700978726901
+  y = 73
+  splash_file_path = config/fancymenu/assets/splash-text.txt
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 151
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 06d0d623-3011-45e3-8ba5-ea09ed772a881705161783872
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 342
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 30211edd-0733-4e4b-ba7f-f34d521c608c1705161783872
+  y = 332
+  height = 9
+}
+
+customization {
+  path = config/fancymenu/assets/logo.png
+  orientation = top-centered
+  x = -128
+  width = 258
+  action = addtexture
+  actionid = 8773b932-21a8-417d-9c6c-b3a2e0d3f3701700978862988
+  y = 30
+  height = 51
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Create Extra
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4b9c17d3-431c-4044-af59-b5c1f70ab1001700979127988
+  y = -53
+  alignment = left
+  height = 13
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Version 1.0.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -199
+  width = 199
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e1ef452a-9bc1-46b8-b9b0-27970754d1e91705161857019
+  y = -23
+  alignment = right
+  height = 11
+}
+
