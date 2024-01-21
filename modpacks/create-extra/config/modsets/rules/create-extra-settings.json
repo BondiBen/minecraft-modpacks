@@ -248,14 +248,6 @@
                 "collapsed": true,
                 "rules": [
                     {
-                        "text": "Supplementaries",
-                        "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
-                        "controller": {
-                            "type": "boolean",
-                            "mod": "supplementaries"
-                        }
-                    },
-                    {
                         "text": "Let Me Despawn",
                         "description": "Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs",
                         "controller": {
